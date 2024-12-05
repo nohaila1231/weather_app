@@ -1,0 +1,41 @@
+.weather-container {
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  input{
+    color: black!important;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .weather-details {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .weather-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
